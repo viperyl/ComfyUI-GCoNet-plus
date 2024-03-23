@@ -63,7 +63,7 @@ class GCovNet_plus_node:
         else:
             []
 
-        checkpoints = [os.path.basename(item) for item in glob(os.path.join(models_dir, "GCoNet_plus", "*"))]
+        checkpoints = [os.path.basename(item) for item in glob(os.path.join(models_dir, "GCoNet_plus_checkpoints", "*"))]
 
         return {
             "required": {
